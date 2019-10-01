@@ -32,7 +32,7 @@ public class SteeringArrive : MonoBehaviour {
         // Use time_to_target as the time to transition from the current velocity to the desired velocity
         // Clamp the desired acceleration and call move.AccelerateMovement()
 
-        Vector3 vel1 = move.target.transform.position - transform.position;
+        Vector3 vel1 = target - transform.position;
 
         if (vel1.magnitude < min_distance)
         {

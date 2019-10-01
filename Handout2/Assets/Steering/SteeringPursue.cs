@@ -30,8 +30,15 @@ public class SteeringPursue : MonoBehaviour {
         // max_seconds_prediction time
         // Be sure that arrive / seek's update is not called at the same time
 
+        Vector3 vec = target - transform.position;
+        float prediction;
 
+        if (move.movement.magnitude < vec.magnitude / max_seconds_prediction)
+            prediction = max_seconds_prediction;
+        else
+            prediction = vec.magnitude / move.movement.magnitude;
 
+        arrive.Steer(target + (target_velocity * prediction));
 
         // TODO 6: Improve the prediction based on the distance from
         // our target and the speed we have

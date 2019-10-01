@@ -4219,7 +4219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a968724c3b6f64198b9b015470e4f6f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1258218286}
+  target: {fileID: 1268264594}
   aim: {fileID: 54098417}
   arrow: {fileID: 1874333838}
   max_mov_speed: 5
@@ -4235,7 +4235,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766855873}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e00aba7cc561b495a9a1faa0fad585dd, type: 3}
   m_Name: 
@@ -4276,7 +4276,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766855873}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b13ae3cbc54e44631ae987b5486c59f4, type: 3}
   m_Name: 
