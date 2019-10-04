@@ -19,6 +19,9 @@ public class SteeringSeek : MonoBehaviour {
 
 	public void Steer(Vector3 target)
 	{
+        if (!move)
+            move = GetComponent<Move>();
+
         // TODO 1: accelerate towards our target at max_acceleration
         // use move.AccelerateMovement()
 
